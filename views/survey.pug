@@ -1,0 +1,27 @@
+html
+    head
+        title Survey
+        link(rel="stylesheet", href="/css/style.css")
+    body.survey
+        h1 Title : #{survey.title}
+        p Question 1 : #{survey.q1}
+        input(type="text", name="question1", placeholder="Question 1")
+        br
+        p Question 2 : #{survey.q2}
+        input(type="text", name="question2", placeholder="Question 2")
+        br
+        p Question 3 : #{survey.q3}
+        input(type="text", name="question3", placeholder="Question 3")
+        br
+        p Question 4 : #{survey.q4}
+        input(type="text", name="question4", placeholder="Question 4")
+        br
+        p Question 5 : #{survey.q5}
+        input(type="text", name="question5", placeholder="Question 5")
+        br
+
+        
+        button(type="submit") Submit
+        br
+        br
+        a(href='/') Retour à l'accueil
